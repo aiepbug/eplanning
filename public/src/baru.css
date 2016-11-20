@@ -1,0 +1,128 @@
+@font-face {
+    font-family: roboto;
+    src: url("fonts/Roboto-Light.ttf");
+}
+body{
+  background-color: #FBFBFB;
+  font-family:roboto;
+
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Material Icons'), local('MaterialIcons-Regular'), url(fonts/material.woff2) format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+
+.navigasi {
+  color: #DEEBFF;
+  background-color: #0066ff;
+  border-color: #2578f6;
+  height: 50px;
+  font-family: arial;
+  background-image:url("img/header_bg.png");
+}
+.navigasi ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.navigasi li {
+    float: left;
+}
+
+.navigasi li a {
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navigasi li a:hover {
+    background-color: #5894FF;
+}
+
+.navigasi .kanan {
+	float:right;
+}
+.navigasi .kiri {
+	float:left;
+}
+.justi
+{
+	text-align:justify;
+}
+
+.samping{
+	background-color:#FFFFFF;
+	height: 100%;
+	height: auto;
+	width: auto;
+	position: relative;
+}
+.konten{
+	background-color:#FBFBFB;
+/*
+	background-image:url("img/header_bg.png");
+*/
+}
+.bayangan {
+   text-shadow: 1px 1px 1px #000, 
+               3px 3px 5px #D6D6D6#545454;
+}
+.garis{text-decoration: underline;}
+.footer
+{
+	position:fixed;
+    height:50px;
+    color:#DCDCDC;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    margin-bottom:0px;
+    text-indent:10px;
+}
+footer
+{
+	position:fixed;
+    height:100px;
+    color:#DCDCDC;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    margin-bottom:0px;
+    text-indent:10px;
+}
+.bayang{
+	text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+.tengah{
+	text-align:center;
+}
+.kecil{
+	font-size:0.7em;
+}
+.sedang{
+	font-size:0.9em;
+}
